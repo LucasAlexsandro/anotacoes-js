@@ -2,7 +2,7 @@
 <p align="center">
     <img src="preview.png" alt="" width="960">
     
-  <h3 align="center">Guia de Perguntas</h3>
+  <h3 align="center">Anotações JS</h3>
  <br />
   <p align="center">
 
@@ -32,8 +32,11 @@
 
 ## Cores:
 
-    --color-verde: #05c46b;
-    --color-branco: #ffffff;
+    --color-primary: #5463FF;
+    --color-secondary: ;
+    --color-bg: #f4f4f4;
+    --color-white: #ffffff;
+    --color-gradient-bg: linear-gradient(90deg,#F4F4F4 0%,#EFEFEF 100%);
 
 
 ## Tipo de fonte:

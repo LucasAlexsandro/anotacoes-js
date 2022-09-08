@@ -41,6 +41,11 @@ body {
     color: var(--color-white);
 }
 
+.profile button {
+    border: none;
+    background: none;
+}
+
 .container {
     padding: 2rem;
 }
