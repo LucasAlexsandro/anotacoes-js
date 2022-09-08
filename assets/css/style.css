@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #5463FF;
+    --color-secondary: ;
+    --color-bg: #f4f4f4;
+    --color-white: #ffffff;
+    --color-gradient-bg: linear-gradient(90deg,#F4F4F4 0%,#EFEFEF 100%);
+}
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--color-bg);
+}
+
+#header {
+    width: 100%;
+    background-color: var(--color-primary);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-white);
+    letter-spacing: 1px;
+}
+
+.profile i {
+    font-size: 1.5rem;
+    color: var(--color-white);
+}
+
+.container {
+    padding: 2rem;
+}
+
+.content {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.addNote-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border: 2px dashed gray;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: var(--color-gradient-bg);
+}
+
+.addNote-content i {
+    margin-right: 1rem;
+}
+
+.addNote-content span {
+    font-size: 1.3rem;
+    font-weight: bold;
+    user-select: none;
+}
+
+textarea {
+    padding: 1rem 2rem;
+    outline: none;
+    resize: none;
+    border: none;
+    background: transparent;
+    font-size: 1.2rem;
+    width: 300px;
+    height: 300px;
+    padding: 2rem;
+}
+
+textarea::-webkit-scrollbar {
+    width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #4b4453;
+}
+
+.item {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.remove {
+    right: 0;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    position: absolute;
+    cursor: pointer;
+}
+
+.remove i {
+    height: 6px;
+    color: #fff;
+    font-size: 1.3rem;
+}
